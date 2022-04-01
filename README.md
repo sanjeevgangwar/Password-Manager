@@ -37,15 +37,15 @@
 
 # Screenshots
 
-![Text](screenshots/s1.png)
+![Text](screenshots/s1.jpg)
 
-![Text](screenshots/s2.png)
+![Text](screenshots/s2.jpg)
 
-![Text](screenshots/s3.png)
+![Text](screenshots/s3.jpg)
 
-![Text](screenshots/s4.png)
+![Text](screenshots/s4.jpg)
 
-![Text](screenshots/s5.png)
+![Text](screenshots/s5.jpg)
 
   
 ## SOCIAL
