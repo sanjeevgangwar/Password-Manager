@@ -81,36 +81,33 @@ class _PasswordsState extends State<Passwords> {
                   child: Slidable(
                     child: ListTile(
                       contentPadding: EdgeInsets.symmetric(
-                        vertical: 12.0,
-                        horizontal: 20.0,
+                        vertical: 3.0,
+                        horizontal: 15.0,
                       ),
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(23),
+                        borderRadius: BorderRadius.circular(30),
                       ),
                       tileColor: Colors.white,
                       leading: CustomIcons.icons[data['type']] ??
                           Icon(
                             Icons.lock,
                             color: Colors.blue,
-                            size: 32.0,
+                            size: 25.0,
                           ),
                       title: Text(
                         "${data['nick']}",
                         style: TextStyle(
-                          fontSize: 22.0,
-                          color: Colors.black,
-                          fontFamily: "customFont",
-                          fontWeight: FontWeight.bold,
-                        ),
+                            fontSize: 20.0,
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
                       subtitle: Text(
-                        "Click on the copy icon to copy your Password !",
+                        "click on copy icon to copy your password",
                         style: TextStyle(
-                          fontSize: 16.0,
+                          fontSize: 15,
                           color: Colors.black,
-                          fontFamily: "customFont",
                         ),
                       ),
                       trailing: IconButton(
@@ -123,7 +120,7 @@ class _PasswordsState extends State<Passwords> {
                         icon: Icon(
                           Icons.copy_rounded,
                           color: Colors.blue,
-                          size: 36.0,
+                          size: 25.0,
                         ),
                       ),
                     ),
@@ -171,7 +168,7 @@ class _PasswordsState extends State<Passwords> {
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
                   labelText: "Service",
-                  labelStyle: TextStyle(),
+                  labelStyle: TextStyle(color: Colors.white),
                   hintText: "Google",
                   hintStyle: TextStyle(color: Colors.white),
                 ),
